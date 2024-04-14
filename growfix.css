@@ -1,0 +1,223 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans&display=swap');
+
+*{
+list-style: none;
+text-decoration:none;
+margin:0;
+padding:0;
+box-sizing: border-box;
+font-family: 'Open Sans', sans-serif;
+}
+
+body{
+    background: #f5f6fa;
+}
+
+.wrapper .sidebar{
+    background: #FFFFFF;
+    position: fixed;
+    top:0;
+    left: 0;
+    width: 225px;
+    height: 100%;
+    padding: 20px 0;
+    transition: all 0.5s ease;
+}
+
+.wrapper .sidebar .icon {
+    position: absolute;
+    left: 32px;
+    right:24px
+}
+
+.wrapper .sidebar .menu {
+    position: absolute;
+    left: 32px;
+    top: 106px
+}
+
+.wrapper .sidebar .alert {
+    position: absolute;
+    align-content: center;
+    top:352px;
+}
+
+.wrapper .sidebar .alert .subAlert .text {
+    display: flex;
+    text-align: center;
+}
+
+.wrapper .sidebar .alert .subAlert .buttonAlert {
+   position: relative;
+   left: 16px;
+   top: 15px;
+}
+
+.wrapper .sidebar .alert .subAlert .buttonAlert .bt {
+    border-radius: 4px;
+    width: 192px;
+    height: 40px;
+    background-color: blue;
+    color: #FFFFFF;
+}
+
+
+
+/* ---Current Portfolio --- */
+
+.currentPortfolioValue {
+    position: relative;
+    top: 108px;
+    left: 288px;
+    border-radius: 10px;
+    width: 352px;
+    height: 220px;
+    background-color: #FFFFFF;
+}
+
+.currentPortfolioValue .textPortfolio {
+    position: relative;
+    font-size: 16px;
+    font-weight: 400;
+    letter-spacing: 1px;
+    top: 20px;
+    left: 20px;
+    color: #6E7191;
+}
+
+.currentPortfolioValue .valuePortfolio {
+    position: relative;
+    top: 16px;
+    left: 20px;
+    font-size: 32px;
+    font-weight: 700;
+    color: #14142B;
+    letter-spacing: 1px;
+}
+
+.currentPortfolioValue .textMoney {
+    position: relative;
+    font-size: 12px;
+    left: 20px;
+    font-weight: 400;
+    letter-spacing: 1px;
+    top: 20px;
+    color: #6E7191;
+}
+
+.currentPortfolioValue .money {
+    position: relative;
+    top: 16px;
+    left: 20px;
+    font-size: 32px;
+    font-weight: 700;
+    color: #14142B;
+    letter-spacing: 1px;
+}
+
+.currentPortfolioValue .totalMoneyInvesteds {
+    position: relative;
+    width: 132px;
+    height: 54px;
+}
+
+.currentPortfolioValue .imgArrow {
+    position: relative;
+    top: 16px;
+    left: 28px;
+}
+
+.currentPortfolioValue .repaymentDone {
+    position: relative;
+    height: 54px;
+    width: 106px;
+}
+
+.currentPortfolioValue .repaymentDoneText {
+    position: relative;
+    font-size: 12px;
+    left: 20px;
+    font-weight: 400;
+    letter-spacing: 1px;
+    top: 20px;
+    color: #6E7191;
+}
+
+.currentPortfolioValue .repaymentDoneValue {
+        position: relative;
+            top: 16px;
+            left: 20px;
+            font-size: 32px;
+            font-weight: 700;
+            color: #14142B;
+            letter-spacing: 1px;
+}
+
+.currentPortfolioValue .wrapperFirstCard {
+    display: grid;
+    grid-template-columns: 220px 1fr;
+    margin-top: 32px;
+
+}
+
+.currentPortfolioValue .hr {
+    position: absolute;
+    background-color: #D9DBE9;
+    top: 100px;
+    width: 300px;
+    height: 3px;
+    left: 24px;
+}
+
+
+/* --- Growth --- */
+
+.growthCard {
+    position: relative;
+    top: 108px;
+    left: 288px;
+    border-radius: 10px;
+    width: 352px;
+    height: 220px;
+    background-color: #FFFFFF;
+}
+
+.growthGrid {
+    display: grid;
+    grid-template-columns: 200px 1fr;
+}
+
+.growthGrid .growthFirstColumn {
+    width: 168px;
+    height: 140px;
+}
+
+.growthGrid .growthFirstColumn .groupValueImg {
+    width: 150px;
+    height: 38px;
+}
+
+.growthGrid .growthSecondColumn {
+    width: 120px;
+    height: 120px;
+}
+
+.growthGrid .growthSecondColumn .loader{
+
+}
+
+.navbar {
+    display: flex;
+    width: auto;
+    justify-content: left;
+    flex-direction: column;
+    height: 118px;
+    background-color: #FFFFFF;
+    gap: 16px
+}
+
+.navbar .pagamentos {
+    display: flex;
+    gap: 6px;
+}
+
